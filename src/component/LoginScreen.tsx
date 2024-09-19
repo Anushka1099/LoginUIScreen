@@ -4,7 +4,7 @@ import LogoImage from "../component/images/image_.png"
 import PasswordIcon from '@material-ui/icons/LockOutlined';
 import LanguageIcon from '@material-ui/icons/LanguageOutlined';
 
-export default class LoginActive extends Component {
+export default class LoginScreen extends Component {
     render() {
         return (
             <>
@@ -75,10 +75,9 @@ const LoginWrapper = styled(Box)({
     },
     "& .loginContainer": {
         margin: "auto",
-        // border: "1px solid black",
         width:"70%",
         marginBottom: 20,
-        marginTop:40
+        marginTop:50
     },
     "& .textField": {
         marginTop:15
